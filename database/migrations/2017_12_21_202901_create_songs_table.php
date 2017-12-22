@@ -21,6 +21,7 @@ class CreateSongsTable extends Migration
             $table->smallInteger('number')->unique();
             $table->string('title',100)->unique();
             $table->string('title_original',100)->nullable();
+            $table->string('slug',100)->unique();
             $table->text('text');
             $table->string('youtube',100)->nullable();
             $table->string('sheet_music',50)->nullable();
