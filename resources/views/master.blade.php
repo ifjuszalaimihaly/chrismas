@@ -14,14 +14,7 @@
 
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-10">
-            <img id="logo" src="/front/images/logo.jpg" class="img-responsive">
-            @yield('content')
-        </div>
-    </div>
-</div>
+@yield('content')
 <!-- App js -->
 <script src="/js/app.js"></script>
 </body>
